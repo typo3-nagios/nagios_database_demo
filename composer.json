@@ -1,0 +1,22 @@
+{
+  "name": "schams-net/nagios-database-demo",
+  "description": "Nagios TYPO3 Monitoring: Database Demp",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Michael Schams",
+      "homepage": "https://schams.net"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5",
+    "schams-net/nagios": "^3",
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "SchamsNet\\NagiosDatabaseDemo\\": "Classes"
+    }
+  }
+}
